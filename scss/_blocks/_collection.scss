@@ -1,0 +1,40 @@
+.collection {
+    &__wrapper {
+        position: relative;
+    }
+
+    &__title {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 150px;
+        line-height: 72px;
+        text-align: center;
+        color: #83888F;
+    }
+
+    &__box {
+        position: absolute;
+        top: -80px;
+        height: 196px;
+        width: 100%;
+        background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+        // border: 1px solid black;
+    }
+
+    &__wrap {
+        position: relative;
+        // border: 1px solid black;
+    }
+
+    &__menu {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+    }
+}
